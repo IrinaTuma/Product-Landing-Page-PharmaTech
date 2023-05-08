@@ -1,6 +1,6 @@
 ## Product-Landing-Page-PharmaTech
 
-This is a [Landing Page](https:link/) for company that does DNA tests.
+This is a [Landing Page](https://irinatuma.github.io/Product-Landing-Page-PharmaTech/) for company that does DNA tests.
 
 There are a navigation bar, main screen, title, forms, video. text.*
 
