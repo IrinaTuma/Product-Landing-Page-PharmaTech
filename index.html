@@ -1,0 +1,147 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <title>Product Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header id="header">
+
+      <!-- logo -->
+      <img id="header-img" src=".\images\logo.svg" alt="logo" width="140px" />
+
+      <!-- navigation bar -->
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Features">Features</a></li>
+          <li><a class="nav-link" href="#Procedure">Procedure</a></li>
+          <li><a class="nav-link" href="#Typesoftests">Types of tests</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTENT PART -->
+    <main>
+
+      <!-- first screen -->
+      <section id="first_screen">
+
+        <div class="intro">
+            <div class="video">
+                <video autoplay muted loop class="background-video">
+                    <source src=".\video\dna-1920x1080-25fps.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="main_content">
+                <div class="container">
+
+                    <h1>Explore yourself with a DNA test</h1>
+                    <h2>Request detailed information:</h2>
+        
+                    <!-- form -->
+                    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        <input id="submit" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+      
+      </section>
+
+      <!-- features (need to add features) -->
+      <section id="Features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+            <div class="icon">
+                <img class="icon_pic" src=".\icons\highest standards.svg" alt="icon: highest standards" />
+            </div>
+            <div class="info">
+                <p>Our products combine cutting-edge technology with unbeatable affordability.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <img class="icon_pic" src=".\icons\geographical areas.svg" alt="icon: geographical areas" />
+            </div>
+            <div class="info">
+                <p>Your DNA can uncover your ancestral roots, including the ethnic groups and geographical areas from which your ancestors hailed.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <img class="icon_pic" src=".\icons\connection.svg" alt="icon: connection" />
+            </div>
+            <div class="info">
+                <p>Discover unknown family connections through the analysis of your shared DNA.</p>
+            </div>
+        </div>
+      </div>
+      </section>
+
+      
+      <!-- video -->
+      <section id="Procedure">
+        <h2>Procedure</h2>
+        <div>
+        <video id="video" controls src="video\dna2-1280x720-30fps.mp4" >
+        </div>
+      </section>
+
+       <!-- Types of tests -->
+       <section id="Typesoftests">
+       <h2>Types of tests</h2>
+
+<div class="blocks">
+
+       <div class="block">
+        <div class="block_type"><h2 class="block_type_h2">Ancestry DNA</h2></div>
+        <h3 class="price">79 €</h3>
+        <ul class="block_list">
+          <li><p>100+ personalized reports</p></li>
+          <li><p>1500+ geographic regions</p></li>
+          <li><p>Ancestry percentages</p></li>
+        </ul>
+        <button class="button">Select</button>
+       </div> 
+
+       <div class="block">
+        <div class="block_type"><h2 class="block_type_h2">Ancestry + Health</h2></div>
+        <h3 class="price">129 €</h3>
+        <ul class="block_list">
+          <li><p>Ancestry DNA service</p></li>
+          <li><p>30+ health insights</p></li>
+          <li><p>Advices for your wellness</p></li>
+        </ul>
+        <button class="button">Select</button>
+       </div> 
+
+       <div class="block">
+        <div class="block_type"><h2 class="block_type_h2">DNA + Membership</h2></div>
+        <h3 class="price">189 €</h3>
+        <ul class="block_list">
+          <li><p>Ancestry + Health service</p></li>
+          <li><p>Pharmacogenetics reports</p></li>
+          <li><p>Ongoing new reports</p></li>
+        </ul>
+        <button class="button">Select</button>
+       </div> 
+</div>
+
+       </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
