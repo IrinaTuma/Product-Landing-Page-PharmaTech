@@ -5,6 +5,8 @@
 html {
     font-size: 62.5%;
     box-sizing: content-box;
+    margin: 0;
+    padding: 0;
   }
 
   body {
@@ -192,6 +194,14 @@ html {
   
   /*Features*/
 
+  #Features {
+    margin-top: 80px;
+  }
+
+  #Features > h2 {
+    margin-bottom: 25px;
+  }
+
   .features {
     display:flex;
     flex-direction: column;
@@ -224,6 +234,14 @@ html {
 
   /*Procedure*/
 
+  #Procedure {
+    margin-top: 60px;
+  }
+
+  #Procedure > h2 {
+    margin-bottom: 35px;
+  }
+
   #video {
     display: block;
     margin: 0 auto;
@@ -234,6 +252,10 @@ html {
 
 
   /*Types of tests*/
+
+  #Typesoftests {
+    margin-top: 80px;
+  }
   
   .blocks {
     display: flex;
@@ -305,6 +327,18 @@ html {
 
 
   /*Footer*/
+  #Footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 225, 225);
+    height: 70px;
+  }
+
+  #Footer > p {
+    text-align: center;
+  }
 
 
   
