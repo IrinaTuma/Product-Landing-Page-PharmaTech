@@ -62,15 +62,15 @@ html {
 
   .part1 {
     display: block;
-    margin-left: 10px;
+    margin-left: 15px;
   }
 
   
   #nav-bar > ul {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
-    margin-right: 15px;
+    gap: 30px;
+    margin-right: 20px;
   }
 
   #nav-bar > ul > li {
@@ -494,8 +494,25 @@ html {
       height: 180px;
       margin: -180px 0 0;
     }
+   
+
+    /*Spaces between blocks*/
+
+    #Features, #Typesoftests {
+      margin-top: 40px;
+    }
+
+    #Procedure {
+      margin-top: 30px;
+    }
+
+    #Footer {
+      margin-top: 50px;
+    }
 
   }
+
+
 
 
     @media (min-width: 768px) {
