@@ -483,8 +483,8 @@ html {
     #Features:before, #Procedure:before, #Typesoftests:before {
       display: block;
       content: "";
-      height: 180px;
-      margin: -180px 0 0;
+      height: 220px;
+      margin: -220px 0 0;
     }
 
 
