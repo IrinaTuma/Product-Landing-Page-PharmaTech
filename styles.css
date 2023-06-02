@@ -464,14 +464,17 @@ html {
 
     .menu {
       height: 0;
-      padding: 20px;
+      padding: 20px 0;
       overflow:hidden;
       flex-direction: column;
       justify-content:space-around;
       align-items: center;
       transition:all 0.5s ease-in-out;
     }
-
+    
+    #nav-bar > ul {
+      margin-right: 0;
+    }
     
     header:has(.hamburger input[type="checkbox"]:checked) .menu {
       margin-top: 4rem;
