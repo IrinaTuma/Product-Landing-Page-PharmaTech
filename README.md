@@ -1,4 +1,4 @@
-## Product-Landing-Page-PharmaTech
+## Product Landing Page PharmaTech
 
 This is a [Landing Page](https://irinatuma.github.io/Product-Landing-Page-PharmaTech/) for company that does DNA tests.
 
